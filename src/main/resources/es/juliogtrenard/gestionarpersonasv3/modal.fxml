@@ -36,7 +36,7 @@
       </padding>
    </HBox>
    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-      <Button mnemonicParsing="false" text="Guardar">
+      <Button mnemonicParsing="false" onAction="#guardarPersona" text="Guardar">
          <HBox.margin>
             <Insets right="50.0" />
          </HBox.margin>
