@@ -8,10 +8,12 @@ public class Persona {
      * Nombre de la persona.
      */
     private String nombre;
+
     /**
      * Apellidos de la persona.
      */
     private String apellidos;
+
     /**
      * Edad de la persona.
      */
