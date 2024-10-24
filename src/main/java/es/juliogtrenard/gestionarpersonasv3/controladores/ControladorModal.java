@@ -64,6 +64,7 @@ public class ControladorModal {
 
         if (esPersonaRepetida()) {
             mostrarAlertaErrores("Persona repetida");
+            limpiarCampos();
         } else {
             crearPersona();
             cerrarVentana(event);
@@ -195,5 +196,14 @@ public class ControladorModal {
      */
     public Persona getPersona() {
         return persona;
+    }
+
+    /**
+     * Limpia los campos de entrada de texto.
+     */
+    private void limpiarCampos() {
+        txtApellidos.clear();
+        txtEdad.clear();
+        txtNombre.clear();
     }
 }
